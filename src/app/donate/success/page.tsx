@@ -10,8 +10,8 @@ interface DonationData {
   amount: number;
   name: string;
   email: string;
-  [key: string]: any;
-}
+  [key: string]: string | number | boolean;
+} 
 
 export default function DonateSuccessPage() {
   const router = useRouter();
@@ -146,7 +146,7 @@ export default function DonateSuccessPage() {
             <div className="mt-10 text-center">
               <p className="text-gray-600 leading-relaxed">
                 Your generous contribution helps us empower thousands of learners across India. 
-                Together, we're building a vibrant learning community that breaks barriers and creates opportunities.
+                Together, we&apos;re building a vibrant learning community that breaks barriers and creates opportunities.
               </p>
               <p className="mt-4 text-sm text-gray-500">
                 If you have any questions, please contact us at{' '}

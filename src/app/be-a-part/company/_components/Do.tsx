@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import {companyDo, companyImages} from "@/data/data";
 
 export default function WhatYouCanDo() {
@@ -23,10 +24,12 @@ export default function WhatYouCanDo() {
             viewport={{ once: true }}
             className="flex-shrink-0 w-full max-w-[300px] md:max-w-[388px]"
           >
-            <img
-              src={companyImages.studLap}
+            <Image
+            src={companyImages.studLap}
               alt="student with a laptop image"
               className="w-full h-auto"
+              width={388}
+              height={300}
             />
           </motion.div>
         </div>

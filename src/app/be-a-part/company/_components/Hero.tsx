@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { companyImages } from "@/data/data";
 export default function Hero() {
   return (
@@ -16,10 +17,13 @@ export default function Hero() {
             <div className="relative w-full max-w-[512px]">
               <div className="absolute top-1/4 left-8 w-[236px] h-[283px] rounded-full bg-[#456FF6] blur-[200px] opacity-70 hidden sm:block" />
 
-              <img
+              <Image
                 src={companyImages.hero}
                 alt="Company Partnership Illustration"
                 className="w-full h-auto relative z-10"
+                 width={512}
+                height={400}
+            
               />
 
             </div>

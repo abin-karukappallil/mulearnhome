@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import {CompanyFeatures,companyImages} from "@/data/data"
 const NetworkIcon = () => (
  <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,15 +31,19 @@ const NetworkIcon = () => (
 export default function WhyCollaborate() {
   return (
     <section className="bg-white py-16 px-4 sm:px-8 relative">
-      <img
+      <Image
         src={companyImages.note}
         alt="note icon"
         className="absolute right-24 top-0 w-[92px] h-[115px] rotate-[16deg] hidden lg:block"
+                width={92}
+        height={115}
       />
-      <img
-        src={companyImages.handshake}
+      <Image
+       src={companyImages.handshake}
         alt="handshake icon"
         className="absolute left-12 top-4 w-[109px] h-[128px] rotate-[65deg] hidden lg:block"
+        width={109}
+        height={128}
       />
       <div className="max-w-6xl mx-auto">
         <motion.h2
