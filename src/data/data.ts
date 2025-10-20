@@ -6437,3 +6437,93 @@ export const impactStats: ImpactStat[] = [
   { number: "1,000+", label: "Mentors", icon: "GraduationCap" },
   { number: "100+", label: "Success Stories", icon: "TrendingUp" },
 ];
+
+export const CompanyFeatures = [
+    {
+    title: "Access to Talent",
+    description: "Tap into a vibrant pool of learners who prove their skills through real projects, not empty promises.",
+    bgColor: "#E7F2FF",
+    titleSize: "text-2xl",
+  },
+  {
+    title: "Skill Validation",
+    description: "See what candidates can actually do—proof-of-work speaks louder than CV buzzwords.",
+    bgColor: "#FFF",
+    titleSize: "text-xl",
+  },
+  {
+    title: "Employer Branding",
+    description: "Show the world you're a future-ready company that invests in innovation and people.",
+    bgColor: "#FFF",
+    titleSize: "text-xl",
+  },
+  {
+    title: "Community Impact",
+    description: "Bridge the gap between education and employment by fueling the next generation of talent.",
+    bgColor: "#FFF",
+    titleSize: "text-xl",
+  },
+]
+export const companyDo = [
+   {
+    title: "Post Internships & Job Roles",
+    description: "Connect with skilled learners ready to contribute from day one.",
+  },
+  {
+    title: "Collaborate on Programs & Events",
+    description: "Co-create hackathons, workshops, and learning tracks that inspire talent.",
+  },
+  {
+    title: "Track Engagement & Impact",
+    description: "Measure applications, participation, and outcomes with clear analytics.",
+  },
+  {
+    title: "Launch Proof-of-Work Challenges",
+    description: "Connect with skilled learners ready to contribute from day one.",
+  }, 
+]
+
+export const companySteps = [
+  {
+		number: "01",
+		title: "Sign Up",
+		description: "Fill out the company registration form.",
+		align: "left",
+	},
+	{
+		number: "02",
+		title: "Verification",
+		description: "Our team reviews and approves your profile.",
+		align: "right",
+	},
+	{
+		number: "03",
+		title: "Create Profile",
+		description: "Add your company details, logo, and team.",
+		align: "left",
+	},
+	{
+		number: "04",
+		title: "Post Opportunities",
+		description: "Share internships, gigs, or Proof-of-Work challenges.",
+		align: "right",
+	},
+	{
+		number: "05",
+		title: "Explore Talent",
+		description: "Discover learners by skills, badges, and engagement scores.",
+		align: "left",
+	},
+	{
+		number: "06",
+		title: "Track Impact",
+		description: "Monitor applications, participation, and analytics in real time.",
+		align: "right",
+	},
+]
+export const companyImages = {
+  hero: cdnUrl("/src/modules/Public/be-a-part/company/assests/stud.svg"),
+  note: cdnUrl("/src/modules/Public/be-a-part/company/assests/note.svg"),
+  handshake: cdnUrl("/src/modules/Public/be-a-part/company/assests/handshake.svg"),
+  studLap: cdnUrl("/src/modules/Public/be-a-part/company/assests/studLap.svg"),
+}         
