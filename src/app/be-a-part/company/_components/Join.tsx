@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { companySteps } from "@/data/data";
+import { redirect } from "next/navigation";
 
 
 export default function HowToJoin() {
@@ -12,7 +13,7 @@ export default function HowToJoin() {
 					initial={{ opacity: 0, y: 30 }}
 					whileInView={{ opacity: 1, y: 0 }}
 					viewport={{ once: true }}
-					className="text-4xl sm:text-5xl font-bold text-[#1A202C] mb-12 tracking-tight"
+					className="text-xl sm:text-3xl font-bold text-[#1A202C] mb-12 tracking-tight"
 				>
 					How To Join?
 				</motion.h2>
@@ -47,7 +48,7 @@ export default function HowToJoin() {
 											/>
 										</svg>
 										<div className="relative z-20 flex-shrink-0 ml-[22px]">
-											<div className="w-[130px] h-[130px] rounded-full bg-[#456FF6] flex items-center justify-center">
+											<div className="w-[90px] h-[90px] rounded-full bg-[#456FF6] flex items-center justify-center">
 												<span className="text-white text-5xl font-bold">
 													{step.number}
 												</span>
@@ -55,10 +56,10 @@ export default function HowToJoin() {
 										</div>
 
 										<div className="flex-1 pl-16 relative z-20">
-											<h3 className="text-3xl font-bold text-[#456FF6] mb-3">
+											<h3 className="text-xl font-bold text-[#456FF6] mb-3">
 												{step.title}
 											</h3>
-											<p className="text-xl text-black max-w-xl">
+											<p className="text-lg text-black max-w-xl">
 												{step.description}
 											</p>
 										</div>
@@ -79,7 +80,7 @@ export default function HowToJoin() {
 										</svg>
 
 										<div className="relative z-20 flex-shrink-0 mr-[22px]">
-											<div className="w-[130px] h-[130px] rounded-full bg-[#456FF6] flex items-center justify-center">
+											<div className="w-[90px] h-[90px] rounded-full bg-[#456FF6] flex items-center justify-center">
 												<span className="text-white text-5xl font-bold">
 													{step.number}
 												</span>
@@ -87,10 +88,10 @@ export default function HowToJoin() {
 										</div>
 
 										<div className="flex-1 pr-16 text-right relative z-20">
-											<h3 className="text-3xl font-bold text-[#456FF6] mb-3">
+											<h3 className="text-xl font-bold text-[#456FF6] mb-3">
 												{step.title}
 											</h3>
-											<p className="text-xl text-black max-w-xl ml-auto">
+											<p className="text-lg text-black max-w-xl ml-auto">
 												{step.description}
 											</p>
 										</div>
@@ -147,7 +148,7 @@ export default function HowToJoin() {
 					viewport={{ once: true }}
 					className="flex justify-center mt-12"
 				>
-					<button className="bg-[#456FF6] hover:bg-[#3558d9] text-white px-12 py-6 text-2xl font-bold rounded-[20px] transition-all">
+					<button onClick={()=>redirect("https://airtable.com/app0v220Yc0G3CPMr/shrpiEQrpuIFTMNh1")} className="cursor-pointer bg-[#456FF6] hover:bg-[#3558d9] text-white px-4 py-3 text-md font-bold rounded-[20px] transition-all">
 						Join as a Company Partner
 					</button>
 				</motion.div>

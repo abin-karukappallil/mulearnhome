@@ -35,7 +35,7 @@ export default function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="w-full lg:w-1/2 flex flex-col items-center lg:items-end gap-8 order-1 lg:order-2"
           >
-            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-bold leading-tight text-center lg:text-right max-w-[630px]">
+            <h1 className="text-xl sm:text-lg md:text-xl lg:text-[40px] font-semibold leading-tight text-center lg:text-right max-w-[630px]">
               <span className="text-[#1A202C]">Partner with </span>
               <span className="text-[#456FF6]">µLearn </span>
               <span className="text-[#1A202C]">to discover talent and spark innovation</span>
@@ -44,7 +44,7 @@ export default function Hero() {
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="bg-[#456FF6] text-white font-bold text-base sm:text-lg lg:text-xl px-6 sm:px-8 py-4 sm:py-5 rounded-[20px] transition-all hover:bg-[#3558d9] shadow-md"
+              className="bg-[#456FF6] text-white font-medium text-base sm:text-sm lg:text-sm px-2 sm:px-4 py-2 sm:py-5 rounded-[20px] transition-all hover:bg-[#3558d9] shadow-md"
             >
               Join as a Company Partner
             </motion.button>

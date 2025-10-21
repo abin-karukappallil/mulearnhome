@@ -6522,8 +6522,8 @@ export const companySteps = [
 	},
 ]
 export const companyImages = {
-  hero: cdnUrl("/src/modules/Public/be-a-part/company/assests/stud.svg"),
-  note: cdnUrl("/src/modules/Public/be-a-part/company/assests/note.svg"),
-  handshake: cdnUrl("/src/modules/Public/be-a-part/company/assests/handshake.svg"),
-  studLap: cdnUrl("/src/modules/Public/be-a-part/company/assests/studLap.svg"),
-}         
+  hero: "/assets/company/stud.svg",
+  note: "/assets/company/note.svg",
+  handshake: "/assets/company/handshake.svg",
+  studLap: "/assets/company/studLap.svg",
+}

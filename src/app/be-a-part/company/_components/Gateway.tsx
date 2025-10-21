@@ -10,7 +10,7 @@ export default function Gateway() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-[64px] font-bold text-center leading-tight tracking-tight"
+          className="text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-[44px] font-bold text-center leading-tight tracking-tight"
         >
           <span className="text-[#1A202C]">Your gateway to the </span>
           <span className="text-[#456FF6]">µLearn </span>
